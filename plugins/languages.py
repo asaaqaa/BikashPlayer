@@ -18,7 +18,7 @@ def lanuages_keyboard(_):
     keyboard = InlineKeyboard(row_width=2)
     keyboard.row(
         InlineKeyboardButton(
-            text="🇦🇺 𝐄𝐧𝐠𝐥𝐢𝐬𝐡 🇦🇺",
+            text="🇾🇪 عربي 🇾🇪",
             callback_data=f"languages:en",
         ),
     )
@@ -34,7 +34,7 @@ LANGUAGE_COMMAND = get_command("LANGUAGE_COMMAND")
 
 
 @app.on_message(
-    filters.command(LANGUAGE_COMMAND)
+    filters.command(["LANGUAGE_COMMAND"],prefixes= ["/", "!","","#"]))
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS

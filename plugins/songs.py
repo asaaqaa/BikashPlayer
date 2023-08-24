@@ -26,7 +26,7 @@ SONG_COMMAND = get_command("SONG_COMMAND")
 
 
 @app.on_message(
-    filters.command(SONG_COMMAND)
+    filters.command(["SONG_COMMAND"],prefixes= ["/", "!","","#"]) 
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS

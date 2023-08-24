@@ -24,11 +24,11 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", " BIKASH ADITYA PLAYER")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/BikashHalderNew/BIKASHPLAYER",)
+UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/asaaqaa/BIKASHPLAYER",)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "bikash")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BikashGadgetsTech")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/bgt_chat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Mlze1bot")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ASAAQLIO")
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "5400"))
 AUTO_SUGGESTION_TIME = int(getenv("AUTO_SUGGESTION_TIME", "5400"))
@@ -37,7 +37,7 @@ AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", None)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/BikashHalder")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/Mlze1bot")
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "3"))
@@ -61,7 +61,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 ### Do Not Touch Or Edit Codes After This Line
 ############################
 COMMAND_PREFIXES.append('')
-OWNER_ID.append(1439222689)
+OWNER_ID.append(6228635168)
 ############################
 adminlist = {}
 lyrical = {}
@@ -78,7 +78,7 @@ LOG_FILE_NAME = "bikashlogs.txt"
 
 
 # All Images Of Bikash Aditya Player // @BIKASHHALDER @AdityaHalder
-START_IMG_URL = getenv("START_IMG_URL", f"https://te.legra.ph/file/99d0261f0aa5512ad6753.jpg")
+START_IMG_URL = getenv("START_IMG_URL", f"https://graph.org/file/dd052aea06f1367475c38.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "resource/ping.jpeg")
 PLAYLIST_IMG_URL = getenv("PLAYLIST_IMG_URL", "resource/playlist.jpeg")
 GLOBAL_IMG_URL = getenv("GLOBAL_IMG_URL", "resource/global.jpeg")

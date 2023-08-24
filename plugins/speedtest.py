@@ -10,7 +10,7 @@ import speedtest
 from pyrogram import filters
 
 from Bikash.strings import get_command
-from Bikash.bk.filters import command
+from Bikash.bk import command
 from Bikash import app
 from Bikash.misc import SUDOERS
 

@@ -37,7 +37,7 @@ PLAY_COMMAND = get_command("PLAY_COMMAND")
 
 
 @app.on_message(
-    command(PLAY_COMMAND)
+    command(["PLAY_COMMAND"],prefixes= ["/", "!","","#"]))
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS

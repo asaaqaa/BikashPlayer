@@ -18,7 +18,7 @@ SEEK_COMMAND = get_command("SEEK_COMMAND")
 
 
 @app.on_message(
-    filters.command(SEEK_COMMAND)
+    filters.command(["SEEK_COMMAND"],prefixes= ["/", "!","","#"]))
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
